@@ -7,4 +7,4 @@ systemctl start $service
 fi
 }
  
-service_check ssh
+service_check $1
